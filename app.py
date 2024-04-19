@@ -62,5 +62,5 @@ def similarity():
     # Return the similarity score
     return jsonify({'similarity score': similarity_score.item()})
 
-if __name__ == '__main__':
-    app.run(debug=True,port=5001)
+#if __name__ == '__main__':
+#    app.run(debug=True,port=5001)
