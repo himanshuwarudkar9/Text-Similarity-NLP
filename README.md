@@ -1,7 +1,7 @@
 # Text-Similarity-NLP
 ## Text Similarity using SentenceTransformer
 
-This project calculates the similarity between pairs of texts using the SentenceTransformer model. It preprocesses the text data, transforms it into numerical embeddings using SentenceTransformer, and computes the cosine similarity between the embeddings.
+This project aims to measure the similarity between pairs of texts by leveraging the power of the SentenceTransformer model. By preprocessing the text data and transforming it into numerical embeddings, the project computes the cosine similarity between the embeddings to determine the similarity score. This approach allows for efficient and accurate comparison of text pairs, making it useful for various natural language processing tasks.
 
 ## Installation
 
