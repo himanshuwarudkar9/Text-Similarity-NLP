@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["gunicorn", "--bind", ":$PORT", "flask_app:app"]
+CMD ["gunicorn", "--bind", ":$PORT", "app:app"]
