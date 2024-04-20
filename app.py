@@ -9,9 +9,9 @@ from autocorrect import Speller
 import re
 import numpy as np
 import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
+#nltk.download('punkt')
+#nltk.download('stopwords')
+#nltk.download('wordnet')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
@@ -62,5 +62,5 @@ def similarity():
     # Return the similarity score
     return jsonify({'similarity score': similarity_score.item()})
 
-#if __name__ == '__main__':
-#    app.run(debug=True,port=5001)
+if __name__ == '__main__':
+    app.run(debug=True,port=5001)
