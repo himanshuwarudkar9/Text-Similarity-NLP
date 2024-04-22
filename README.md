@@ -9,7 +9,7 @@ Clone the repository and install the required dependencies using `pip install -r
 
 ## Usage
 
-Place your dataset file named `DataNeuron_Text_Similarity.csv` in the project directory and run the `main.py` script. The output will be saved to `OutputPartA.csv`.
+Here dataset file which was used was named `DataNeuron_Text_Similarity.csv` in the Data directory and run the `main.py` script. The output will be saved to `OutputPartA.csv` in the Data directory.
 
 ## Requirements
 
