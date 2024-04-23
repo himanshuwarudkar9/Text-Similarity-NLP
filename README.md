@@ -22,4 +22,6 @@ Clone the repository and install the required dependencies using `pip install -r
  
 6. Data directory contains both input and output CSV files, whereas Other_Files directory contains cloud deployment files.
 
+   
+https://miro.medium.com/v2/resize:fit:2000/1*GXMlZw_Z217UIrUl5VfNIw.png
 
